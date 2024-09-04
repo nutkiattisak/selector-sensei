@@ -1,0 +1,26 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "Selector Sensei"
+  text: "Learning CSS Selectors"
+  image:
+    src: /assets/selector-sensei-logo.png
+    alt: selector-sensei
+  tagline: a website about css selectors
+  actions:
+    - theme: brand
+      text: เข้าสู่บทเรียน
+      link: /content
+    - theme: alt
+      text: แบบทดสอบ
+      link: /exam
+
+features:
+  - title: Selectors
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: แบบทดสอบ
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
+
