@@ -8,7 +8,9 @@ export default defineConfig({
   themeConfig: {
     logo: "/assets/selector-sensei-logo.png",
     nav: [{ text: "เข้าสู่บทเรียน", link: "/content" }],
-
+    search: {
+      provider: "local",
+    },
     sidebar: [
       {
         text: "[DRAFT] Intro to CSS Selectors",
