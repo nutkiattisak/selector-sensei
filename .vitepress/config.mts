@@ -21,9 +21,11 @@ export default defineConfig({
           },
           {
             text: "General Selectors",
+            collapsed: true,
             items: [
               {
                 text: "🚧 Universal Selector",
+                link: "/content/universal-selector",
               },
               {
                 text: "🚧 Type Selector",
@@ -38,6 +40,7 @@ export default defineConfig({
           },
           {
             text: "Combinator Selectors",
+            collapsed: true,
             items: [
               {
                 text: "🚧 Descendant Selector",
@@ -55,6 +58,7 @@ export default defineConfig({
           },
           {
             text: "Pseudo-class Selectors",
+            collapsed: true,
             items: [
               {
                 text: "🚧 Dynamic Pseudo-classes",
@@ -72,6 +76,7 @@ export default defineConfig({
           },
           {
             text: "Pseudo-element Selectors",
+            collapsed: true,
             items: [
               {
                 text: "🚧 Pseudo-element",
@@ -80,6 +85,7 @@ export default defineConfig({
           },
           {
             text: "Attribute Selectors",
+            collapsed: true,
             items: [
               {
                 text: "🚧 Existence Attribute Selector",

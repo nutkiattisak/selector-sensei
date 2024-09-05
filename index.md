@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Selector Sensei"
-  text: "Learning CSS Selectors"
+  text: "Learn CSS Selectors Easily"
   image:
     src: /assets/selector-sensei-logo.png
     alt: selector-sensei
