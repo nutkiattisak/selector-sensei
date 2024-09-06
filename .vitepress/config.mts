@@ -14,11 +14,8 @@ export default defineConfig({
     sidebar: [
       {
         text: "[DRAFT] Intro to CSS Selectors",
+        link: "/content",
         items: [
-          {
-            text: "ยินดีต้อนรับ",
-            link: "/content/welcome",
-          },
           {
             text: "General Selectors",
             collapsed: true,
@@ -29,6 +26,7 @@ export default defineConfig({
               },
               {
                 text: "🚧 Type Selector",
+                link: "/content/type-selector",
               },
               {
                 text: "🚧 Class Selector",
