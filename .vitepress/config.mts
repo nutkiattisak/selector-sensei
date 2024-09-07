@@ -33,7 +33,8 @@ export default defineConfig({
                 link: "/content/class-selector",
               },
               {
-                text: "🚧 ID Selector",
+                text: "ID Selector",
+                link: "/content/id-selector",
               },
             ],
           },
