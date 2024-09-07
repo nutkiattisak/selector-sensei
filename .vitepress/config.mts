@@ -21,15 +21,16 @@ export default defineConfig({
             collapsed: true,
             items: [
               {
-                text: "🚧 Universal Selector",
+                text: "Universal Selector",
                 link: "/content/universal-selector",
               },
               {
-                text: "🚧 Type Selector",
+                text: "Type Selector",
                 link: "/content/type-selector",
               },
               {
-                text: "🚧 Class Selector",
+                text: "Class Selector",
+                link: "/content/class-selector",
               },
               {
                 text: "🚧 ID Selector",
