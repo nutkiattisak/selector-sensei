@@ -1,10 +1,8 @@
 # Universal Selector
 
-The Universal Selector, represented by the asterisk `(*)`, is a selector in CSS that targets all elements within a specified scope. It is called "universal" because it applies to every element on a web page or within a parent element.
+Universal Selector เป็น selector ใน CSS ที่เลือกทุก element ภายในขอบเขตที่กำหนด เรียกว่า "Universal" เพราะสามารถใช้กับทุก element ในหน้าเว็บ
 
-## Syntax
-
-The syntax for the Universal Selector is simple and straightforward
+## ตัวอย่าง
 
 ```css
 * {
@@ -12,9 +10,7 @@ The syntax for the Universal Selector is simple and straightforward
 }
 ```
 
-This code will select all elements and apply the specified CSS properties to them.
-
-## Basic Usage
+## การใช้งานพื้นฐาน
 
 Universal Selector มักใช้ในการกำหนด style ที่ควรจะเหมือนกันสำหรับทุก element เช่น การตั้งค่าระยะห่างขอบและระยะห่างภายใน
 
@@ -25,11 +21,11 @@ Universal Selector มักใช้ในการกำหนด style ที
 }
 ```
 
-The Universal Selector is often used for applying styles that should be uniform across all elements, such as resetting margins and padding
+การใช้งานแบบนี้พบได้ทั่วไปใน CSS resets เพื่อ reset style เริ่มต้นที่แตกต่างกันของเบราว์เซอร์
 
-## Scope of the Universal Selector
+## ขอบเขตของ Universal Selector
 
-By default, the Universal Selector affects all elements in the entire document. However, when used in a more specific context, like within a class or an element, it only applies to that particular context
+Universal Selector ถูกออกแบบมาให้ส่งผลกับทุก element ใน HTML แต่เมื่อนำไปใช้ภายในกฎ CSS ที่ซับซ้อน เช่น `.container *  {color: blue; }` ผลของ Universal Selector จะถูกจำกัดให้ทำงานเฉพาะภายใน element ที่มี class container `(.container)` เท่านั้น ทำให้เราสามารถกำหนดรูปแบบให้กับองค์ประกอบทั้งหมดภายในส่วนนั้นได้โดยง่าย
 
 ```css
 .container * {
@@ -37,18 +33,16 @@ By default, the Universal Selector affects all elements in the entire document. 
 }
 ```
 
-In this example, all elements inside the `.container` class will have blue text color.
+## ข้อดีและข้อเสีย
 
-## Pros and Cons
+### ข้อดี
 
-### Pros
+Universal Selector ใช้งานง่ายและมีประสิทธิภาพสำหรับการตั้งค่า style ระดับ global หรือการ reset
 
-The Universal Selector is easy to use and effective for global styling or resets.
+### ข้อเสีย
 
-### Cons
+การใช้มากเกินไปอาจทำให้เกิดปัญหาด้านประสิทธิภาพ โดยเฉพาะในเอกสารที่มีขนาดใหญ่ เพราะอาจเลือก element หลายพันรายการ
 
-Overusing it can lead to performance issues, especially in large documents, because it can potentially select thousands of elements.
+## ความสำคัญของ CSS (CSS Specificity)
 
-## CSS Specificity
-
-The Universal Selector has the lowest specificity of all CSS selectors. This means that it will be overridden by any more specific selectors (e.g., element selectors, class selectors, ID selectors).
+Universal Selector มีความสำคัญต่ำที่สุดในบรรดา selector CSS ทั้งหมด ซึ่งหมายความว่าจะถูกเขียนทับโดย selector ที่เฉพาะเจาะจงมากกว่า เช่น selector class `(.class)` หรือ selector ID `(#id)`
