@@ -5,6 +5,23 @@ export default defineConfig({
   title: "Selector Sensei",
   description: "Learning CSS Selector",
   head: [["link", { rel: "icon", href: "/assets/selector-sensei-logo.png" }]],
+  rewrites: {
+    "th/:rest*": ":rest*",
+  },
+  lastUpdated: true,
+  cleanUrls: true,
+  metaChunk: true,
+  locales: {
+    root: {
+      label: "ภาษาไทย",
+      lang: "th",
+    },
+    en: {
+      label: "English",
+      lang: "en",
+      link: "/en",
+    },
+  },
   themeConfig: {
     logo: "/assets/selector-sensei-logo.png",
     nav: [{ text: "เข้าสู่บทเรียน", link: "/content" }],
@@ -43,11 +60,11 @@ export default defineConfig({
             collapsed: true,
             items: [
               {
-                text: "🚧 Descendant Selector",
+                text: "Descendant Selector",
                 link: "/content/combinator-selectors/descendant-selector",
               },
               {
-                text: "🚧 Child Selector",
+                text: "Child Selector",
               },
               {
                 text: "🚧 Adjacent Sibling Selector",
