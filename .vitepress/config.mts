@@ -22,19 +22,19 @@ export default defineConfig({
             items: [
               {
                 text: "Universal Selector",
-                link: "/content/universal-selector",
+                link: "/content/general-selectors/universal-selector",
               },
               {
                 text: "Type Selector",
-                link: "/content/type-selector",
+                link: "/content/general-selectors/type-selector",
               },
               {
                 text: "Class Selector",
-                link: "/content/class-selector",
+                link: "/content/general-selectors/class-selector",
               },
               {
                 text: "ID Selector",
-                link: "/content/id-selector",
+                link: "/content/general-selectors/id-selector",
               },
             ],
           },
@@ -44,6 +44,7 @@ export default defineConfig({
             items: [
               {
                 text: "🚧 Descendant Selector",
+                link: "/content/combinator-selectors/descendant-selector",
               },
               {
                 text: "🚧 Child Selector",
