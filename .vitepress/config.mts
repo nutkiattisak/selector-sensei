@@ -1,10 +1,10 @@
 import { defineConfig } from "vitepress"
+import { shared } from "./shared"
+import { th } from "./th"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Selector Sensei",
-  description: "Learning CSS Selector",
-  head: [["link", { rel: "icon", href: "/assets/selector-sensei-logo.png" }]],
+  ...shared,
   rewrites: {
     "th/:rest*": ":rest*",
   },
@@ -14,7 +14,7 @@ export default defineConfig({
   locales: {
     root: {
       label: "ภาษาไทย",
-      lang: "th",
+      ...th,
     },
     en: {
       label: "English",
@@ -24,7 +24,10 @@ export default defineConfig({
   },
   themeConfig: {
     logo: "/assets/selector-sensei-logo.png",
-    nav: [{ text: "เข้าสู่บทเรียน", link: "/content" }],
+    nav: [
+      { text: "หน้าแรก", link: "/" },
+      { text: "เข้าสู่บทเรียน", link: "/content" },
+    ],
     search: {
       provider: "local",
     },
@@ -135,5 +138,22 @@ export default defineConfig({
         link: "https://github.com/nutkiattisak/selector-sensei",
       },
     ],
+    lastUpdated: {
+      text: "อัปเดตล่าสุดเมื่อวันที่",
+      formatOptions: {
+        timeZone: "Asia/Bangkok",
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+        forceLocale: true,
+        hour: "numeric",
+        minute: "numeric",
+      },
+    },
+    editLink: {
+      pattern:
+        "https://github.com/nutkiattisak/selector-sensei/tree/main/:path",
+      text: "แก้ไขหน้านี้บน GitHub",
+    },
   },
 })

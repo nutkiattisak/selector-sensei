@@ -8,19 +8,19 @@ hero:
   image:
     src: /assets/selector-sensei-logo.png
     alt: selector-sensei
-  tagline: a website about css selectors
+  tagline: แหล่งรวบรวมความรู้เกี่ยวกับ CSS Selector
   actions:
     - theme: brand
-      text: เข้าสู่บทเรียน
+      text: Enter the lesson
       link: /content
     - theme: alt
-      text: แบบทดสอบ
+      text: Quiz
       link: /exam
 
 features:
-  - title: Selectors
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: แบบทดสอบ
+  - title: CSS Selectors
+    details: 🎉
+  - title: Exam
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

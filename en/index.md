@@ -18,8 +18,8 @@ hero:
       link: /en/exam
 
 features:
-  - title: Selectors
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: CSS Selectors
+    details: 🎉
   - title: แบบทดสอบ
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
