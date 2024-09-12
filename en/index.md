@@ -11,16 +11,16 @@ hero:
   tagline: a website about css selectors
   actions:
     - theme: brand
-      text: เข้าสู่บทเรียน
+      text: Enter the lesson
       link: /en/content
     - theme: alt
-      text: แบบทดสอบ
+      text: Quiz
       link: /en/exam
 
 features:
   - title: CSS Selectors
     details: 🎉
-  - title: แบบทดสอบ
+  - title: Quiz
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

@@ -68,9 +68,11 @@ export default defineConfig({
               },
               {
                 text: "Child Selector",
+                link: "/content/combinator-selectors/child-selector",
               },
               {
-                text: "🚧 Adjacent Sibling Selector",
+                text: "Adjacent Sibling Selector",
+                link: "/content/combinator-selectors/adjacent-sibling-selector",
               },
               {
                 text: "🚧 General Sibling Selector",

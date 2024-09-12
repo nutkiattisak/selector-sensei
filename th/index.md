@@ -11,10 +11,10 @@ hero:
   tagline: แหล่งรวบรวมความรู้เกี่ยวกับ CSS Selector
   actions:
     - theme: brand
-      text: Enter the lesson
+      text: เข้าสู่บทเรียน
       link: /content
     - theme: alt
-      text: Quiz
+      text: แบบทดสอบ
       link: /exam
 
 features:
