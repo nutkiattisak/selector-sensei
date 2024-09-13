@@ -1,17 +1,17 @@
 import { defineConfig, type DefaultTheme } from "vitepress"
 
-export const th = defineConfig({
-  lang: "th",
+export const en = defineConfig({
+  lang: "en",
   themeConfig: {
     nav: [
-      { text: "หน้าแรก", link: "/" },
-      { text: "เข้าสู่บทเรียน", link: "/content" },
+      { text: "Home", link: "/en" },
+      { text: "Enter the lesson", link: "/en/content" },
     ],
     sidebar: {
-      "/content/": { base: "/content/", items: sidebarContent() },
+      "/en/content/": { base: "/en/content/", items: sidebarContent() },
     },
     lastUpdated: {
-      text: "อัปเดตล่าสุดเมื่อวันที่",
+      text: "Last updated",
       formatOptions: {
         timeZone: "Asia/Bangkok",
         day: "numeric",
@@ -25,7 +25,7 @@ export const th = defineConfig({
     editLink: {
       pattern:
         "https://github.com/nutkiattisak/selector-sensei/tree/main/:path",
-      text: "แก้ไขหน้านี้บน GitHub",
+      text: "Edit this page on GitHub",
     },
   },
 })
@@ -64,19 +64,19 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
           items: [
             {
               text: "Descendant Selector",
-              link: "/content/combinator-selectors/descendant-selector",
+              link: "/combinator-selectors/descendant-selector",
             },
             {
               text: "Child Selector",
-              link: "/content/combinator-selectors/child-selector",
+              link: "/combinator-selectors/child-selector",
             },
             {
               text: "Adjacent Sibling Selector",
-              link: "/content/combinator-selectors/adjacent-sibling-selector",
+              link: "/combinator-selectors/adjacent-sibling-selector",
             },
             {
               text: "General Sibling Selector",
-              link: "/content/combinator-selectors/general-sibling-selector",
+              link: "/combinator-selectors/general-sibling-selector",
             },
           ],
         },
