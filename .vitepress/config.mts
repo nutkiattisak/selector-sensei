@@ -75,7 +75,8 @@ export default defineConfig({
                 link: "/content/combinator-selectors/adjacent-sibling-selector",
               },
               {
-                text: "🚧 General Sibling Selector",
+                text: "General Sibling Selector",
+                link: "/content/combinator-selectors/general-sibling-selector",
               },
             ],
           },
