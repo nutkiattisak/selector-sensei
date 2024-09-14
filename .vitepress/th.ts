@@ -10,6 +10,9 @@ export const th = defineConfig({
     sidebar: {
       "/content/": { base: "/content/", items: sidebarContent() },
     },
+    outline: {
+      label: "สารบัญ",
+    },
     docFooter: {
       next: "หน้าถัดไป",
       prev: "หน้าก่อนหน้า",

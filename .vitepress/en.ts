@@ -10,6 +10,9 @@ export const en = defineConfig({
     sidebar: {
       "/en/content/": { base: "/en/content/", items: sidebarContent() },
     },
+    outline: {
+      label: "On this page",
+    },
     docFooter: {
       next: "Next page",
       prev: "Previous page",
