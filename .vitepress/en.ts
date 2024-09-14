@@ -10,6 +10,10 @@ export const en = defineConfig({
     sidebar: {
       "/en/content/": { base: "/en/content/", items: sidebarContent() },
     },
+    docFooter: {
+      next: "Next page",
+      prev: "Previous page",
+    },
     lastUpdated: {
       text: "Last updated",
       formatOptions: {

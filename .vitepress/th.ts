@@ -10,6 +10,10 @@ export const th = defineConfig({
     sidebar: {
       "/content/": { base: "/content/", items: sidebarContent() },
     },
+    docFooter: {
+      next: "หน้าถัดไป",
+      prev: "หน้าก่อนหน้า",
+    },
     lastUpdated: {
       text: "อัปเดตล่าสุดเมื่อวันที่",
       formatOptions: {
