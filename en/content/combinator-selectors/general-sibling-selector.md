@@ -24,7 +24,18 @@ h1 ~ p {
 }
 ```
 
-In this example, all `<p>` elements that are siblings of an `<h1>` and come after it will have blue text color.
+In this example, every `<p>` element that comes after any `<h1>` in the same parent will have blue text.
+
+## Applying the Selector in HTML
+
+```html
+<h1>Main Title</h1>
+<p>First paragraph</p>
+<p>Second paragraph</p>
+<p>Third paragraph</p>
+```
+
+Here, the General Sibling Selector `h1 ~ p` will apply the styles to the second and third paragraphs but not the first one, as it’s immediately after the `<h1>`.
 
 ## Selecting All Following Siblings
 
