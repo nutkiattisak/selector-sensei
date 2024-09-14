@@ -89,7 +89,8 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           items: [
             {
-              text: "🚧 Dynamic Pseudo-classes",
+              text: "Dynamic Pseudo-classes",
+              link: "/pseudo-class-selectors/dynamic-pseudo-classes",
             },
             {
               text: "🚧 User Action Pseudo-classes",

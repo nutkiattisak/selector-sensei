@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Intro to CSS Selectors'
+  link: '/content'
+next:
+  text: 'Type Selector'
+  link: '/content/general-selectors/type-selector'
+---
+
 # Universal Selector
 
 Universal Selector เป็น selector ใน CSS ที่เลือกทุก element ภายในขอบเขตที่กำหนด เรียกว่า "Universal" เพราะสามารถใช้กับทุก element ในหน้าเว็บ
