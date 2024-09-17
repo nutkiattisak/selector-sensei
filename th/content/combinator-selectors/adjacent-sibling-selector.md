@@ -59,7 +59,7 @@ h1 ~ p { color: blue; } /* เลือก <p> ทั้งหมดที่อ
 - ความเข้าใจผิดเกี่ยวกับการทำงานของ Selector: การสับสนระหว่าง Adjacent Sibling Selector กับ General Sibling Selector อาจทำให้เกิดการจัด style ที่ไม่คาดคิด
 - การใช้ Adjacent Sibling Selectors มากเกินไป: การใช้มากเกินไปอาจทำให้ CSS ซับซ้อนและยากต่อการดูแล
 
-## แนวทางปฏิบัติที่ดีที่สุด
+## แนวทางที่ควรปฏิบัติ
 
 - ใช้ Adjacent Sibling Selectors เมื่อคุณต้องการกำหนด style ให้ Element ที่มีความใกล้ชิดโดยตรงกับ Element อื่น
 - รวม Adjacent Sibling Selectors กับ Class หรือ ID Selectors เพื่อเพิ่มความเฉพาะเจาะจงและการควบคุม
