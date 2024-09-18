@@ -103,6 +103,7 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
             },
             {
               text: "🚧 Structural Pseudo-classes",
+              link: "/pseudo-class-selectors/structural-pseudo-classes",
             },
           ],
         },
@@ -111,7 +112,8 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           items: [
             {
-              text: "🚧 Pseudo-element",
+              text: "Pseudo-element",
+              link: "/pseudo-element-selectors/pseudo-element",
             },
           ],
         },
