@@ -113,7 +113,7 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
           items: [
             {
               text: "Pseudo-element",
-              link: "/pseudo-element-selectors/pseudo-element",
+              link: "/pseudo-element-selectors/pseudo-elements",
             },
           ],
         },
@@ -122,7 +122,8 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           items: [
             {
-              text: "🚧 Existence Attribute Selector",
+              text: "Existence Attribute Selector",
+              link: "/attribute-selectors/existence-attribute-selector",
             },
             {
               text: "🚧 Equality Attribute Selector",
