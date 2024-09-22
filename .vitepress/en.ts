@@ -126,7 +126,8 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
               link: "/attribute-selectors/existence-attribute-selector",
             },
             {
-              text: "🚧 Equality Attribute Selector",
+              text: "Equality Attribute Selector",
+              link: "/attribute-selectors/equality-attribute-selector",
             },
             {
               text: "🚧 Substring Attribute Selector",
