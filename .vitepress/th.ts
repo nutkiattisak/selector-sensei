@@ -138,9 +138,6 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
             {
               text: "🚧 Suffix Attribute Selector",
             },
-            {
-              text: "🚧 Substring Attribute Selector",
-            },
           ],
         },
       ],

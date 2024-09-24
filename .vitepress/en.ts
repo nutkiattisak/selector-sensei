@@ -134,12 +134,10 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
             },
             {
               text: "🚧 Prefix Attribute Selector",
+              link: "/attribute-selectors/prefix-attribute-selector",
             },
             {
               text: "🚧 Suffix Attribute Selector",
-            },
-            {
-              text: "🚧 Substring Attribute Selector",
             },
           ],
         },
