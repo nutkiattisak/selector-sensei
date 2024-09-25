@@ -137,7 +137,8 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
               link: "/attribute-selectors/prefix-attribute-selector",
             },
             {
-              text: "🚧 Suffix Attribute Selector",
+              text: "Suffix Attribute Selector",
+              link: "/attribute-selectors/suffix-attribute-selector",
             },
           ],
         },
