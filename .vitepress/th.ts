@@ -133,7 +133,8 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
               text: "🚧 Substring Attribute Selector",
             },
             {
-              text: "🚧 Prefix Attribute Selector",
+              text: "Prefix Attribute Selector",
+              link: "/attribute-selectors/prefix-attribute-selector",
             },
             {
               text: "🚧 Suffix Attribute Selector",
