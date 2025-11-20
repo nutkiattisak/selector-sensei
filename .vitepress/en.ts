@@ -96,10 +96,12 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
               link: "/pseudo-class-selectors/dynamic-pseudo-classes",
             },
             {
-              text: "🚧 User Action Pseudo-classes",
+              text: "User Action Pseudo-classes",
+              link: "/pseudo-class-selectors/user-action-pseudo-classes",
             },
             {
-              text: "🚧 Target Pseudo-class",
+              text: "Target Pseudo-class",
+              link: "/pseudo-class-selectors/target-pseudo-class",
             },
             {
               text: "Structural Pseudo-classes",

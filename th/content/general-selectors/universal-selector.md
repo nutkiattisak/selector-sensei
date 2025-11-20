@@ -55,3 +55,9 @@ Universal Selector ใช้งานง่ายและมีประสิ�
 ## ความสำคัญของ CSS (CSS Specificity)
 
 Universal Selector มีความสำคัญต่ำที่สุดในบรรดา selector CSS ทั้งหมด ซึ่งหมายความว่าจะถูกเขียนทับโดย selector ที่เฉพาะเจาะจงมากกว่า เช่น selector class `(.class)` หรือ selector ID `(#id)`
+
+## แนวทางที่ควรปฏิบัติ
+
+- ใช้ Universal Selector อย่างระมัดระวังและเฉพาะเมื่อจำเป็นเท่านั้น
+- รวม Universal Selector กับ Selector อื่นเพื่อจำกัดขอบเขตและปรับปรุงประสิทธิภาพ
+- คำนึงถึงความสำคัญและการสืบทอดเมื่อใช้ Universal Selector

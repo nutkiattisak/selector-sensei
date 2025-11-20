@@ -71,19 +71,19 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
           items: [
             {
               text: "Descendant Selector",
-              link: "/content/combinator-selectors/descendant-selector",
+              link: "/combinator-selectors/descendant-selector",
             },
             {
               text: "Child Selector",
-              link: "/content/combinator-selectors/child-selector",
+              link: "/combinator-selectors/child-selector",
             },
             {
               text: "Adjacent Sibling Selector",
-              link: "/content/combinator-selectors/adjacent-sibling-selector",
+              link: "/combinator-selectors/adjacent-sibling-selector",
             },
             {
               text: "General Sibling Selector",
-              link: "/content/combinator-selectors/general-sibling-selector",
+              link: "/combinator-selectors/general-sibling-selector",
             },
           ],
         },
@@ -96,13 +96,15 @@ function sidebarContent(): DefaultTheme.SidebarItem[] {
               link: "/pseudo-class-selectors/dynamic-pseudo-classes",
             },
             {
-              text: "🚧 User Action Pseudo-classes",
+              text: "User Action Pseudo-classes",
+              link: "/pseudo-class-selectors/user-action-pseudo-classes",
             },
             {
-              text: "🚧 Target Pseudo-class",
+              text: "Target Pseudo-class",
+              link: "/pseudo-class-selectors/target-pseudo-class",
             },
             {
-              text: "🚧 Structural Pseudo-classes",
+              text: "Structural Pseudo-classes",
               link: "/pseudo-class-selectors/structural-pseudo-classes",
             },
           ],

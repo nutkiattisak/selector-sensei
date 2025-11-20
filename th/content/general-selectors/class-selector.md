@@ -1,6 +1,6 @@
 # Class Selector
 
-Class Selector ใช้เพื่อเลือก element ตาม attribute class ที่กำหนดใน HTML โดยจะใช้จุด `(.)` ตามด้วยชื่อ class ไม่เหมือนกับ Type Selector ที่เลือกทุก instante ของแท็ก HTML ที่เฉพาะเจาะจง Class Selector จะให้ความยืดหยุ่นมากขึ้นโดยสามารถเลือก element ใด ๆ ที่มี class ที่กำหนดได้
+Class Selector ใช้เพื่อเลือก element ตาม attribute class ที่กำหนดใน HTML โดยจะใช้จุด `(.)` ตามด้วยชื่อ class ไม่เหมือนกับ Type Selector ที่เลือกทุก instance ของแท็ก HTML ที่เฉพาะเจาะจง Class Selector จะให้ความยืดหยุ่นมากขึ้นโดยสามารถเลือก element ใด ๆ ที่มี class ที่กำหนดได้
 
 ## ตัวอย่าง
 
